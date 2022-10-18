@@ -1,0 +1,145 @@
+.cuerpa {
+  background: rgb(211,129,217);
+background: radial-gradient(circle, rgba(211,129,217,1) 41%, rgba(137,108,191,1) 78%);
+  text-align: center;
+}
+
+.caja {
+  width: 70%;
+
+  background-color: #f4ddfa;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px -6px black;
+  border-right: 10px solid #fc075d;
+}
+.titulo {
+  color: #fc075d;
+}
+.alto70 {
+  height: 70%;
+}
+.spantitulo {
+  display: flex;
+}
+.botonsub {
+  width: 45%;
+  background-color: #fc075d;
+  border: 1px solid #fc075d;
+  font-size: 17px;
+  border-radius: 10px;
+}
+.colu2{ background-color: #e2bbeb;
+  margin-bottom: 12px;
+  height: 26%;
+  border-radius: 20px;
+  margin-left: 2%;
+  width: 96%;
+}
+
+.colu3{ background-color: #e2bbeb;
+  margin-bottom: 12px;
+  height: 14%;
+  border-radius: 20px;
+  margin-left: 10%;
+  width: 80%;
+}
+.spa1 {
+ 
+}
+.inputlogin{
+  width: 90%;
+  color: #fc075d;
+  border-radius: 15px;
+}
+
+.inputregistro{
+  width: 90%;
+
+  border-radius: 10px;
+
+}
+
+.input_lista{
+  background-color: #e2bbeb;
+  border:3px solid #edd3f3;
+  border-radius: 20px;
+}
+.inputlogin::placeholder { color: #fc075d;}
+.inputregistro::placeholder { }
+.btnaddpedido{
+  width: 45%;
+  background-color: #fc075d;
+  border: 1px solid #fc075d;
+  color: white;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.input_cantidad{width: 40%;}
+.input_nombre{width: 60%;}
+.elscrol{
+  height: 30%;
+  overflow-y: scroll;
+}
+.elscrol2{
+  height: 60%;
+  overflow-y: scroll;
+}
+
+.elscrol::-webkit-scrollbar {
+  width: 20px;
+}
+.elscrol::-webkit-scrollbar-track {
+  background-color: #f4ddfa;
+  border-radius: 100px;
+}
+.elscrol::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 5px solid transparent;
+  background-clip: content-box;
+  background-color: #fc075d;
+}
+
+
+.cajauser{
+  width: 15%;
+  float: left;
+  background-color: #fdf6f870;
+}
+
+input[type="date"]{
+  background-color: #ff0066;
+  padding: 15px;
+  
+  top: 50%;
+  left: 50%;
+  font-family: "Roboto Mono",monospace;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+::-webkit-calendar-picker-indicator{
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  color: white;
+}
+
+.listadiv{
+  position: absolute;
+  padding-left: 25%;
+  width: 60%;
+  padding-right: 25%;
+}
+.dialogdetalle{
+
+  border-left: 10px solid #f4ddfa;
+  border-top: 10px solid #f4ddfa;
+  border-bottom: 10px solid #f4ddfa;
+  width: 50%;
+}
+
+
